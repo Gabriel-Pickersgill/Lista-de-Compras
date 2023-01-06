@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Lista de Compras</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="lista.js"></script>
+	<link rel="stylesheet" type="text/css" href="lista.css">
+</head>
+<body>
+	<h1>Lista de Compras</h1>
+	<form action="add" method="get">
+		<label>Adicionar Item: </label> 
+		<input type="text" name="item">
+		<input id="addPreciso" type="submit" value="Preciso">
+		<input id="addTenho" type="submit" value="Tenho">
+	</form>
+	<h2> Preciso: </h2>
+		<ul class='lista'>
+			<li><input type="checkbox" name="item"> Leite <a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item"> Farinha <a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item"> Fermento <a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item"> Cenoura <a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item"> Maçã <a href="#">&#10006;</a></li>
+		</ul>	
+	<h2> Tenho: </h2>
+		<ul class='lista'>
+			<li><input type="checkbox" name="item" checked> Presunto <a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item" checked> Mussarela <a href="#">&#10006;</a></li>
+		</ul>
+
+		<footer>Desenvolvido por Gabriel Pickersgill</footer>
+	
+</body>
+</html>
+

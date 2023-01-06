@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: rgb(54, 54, 54);
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+input[type="text"]{
+  background-color : #f8f8f8;
+}
+
+#addPreciso {
+  background-color : #f8f8f8;
+}
+
+#addTenho {
+  background-color : #f8f8f8;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.lista {
+  color: rgb(80, 80, 80);
+  font-size: 22px;
+  padding: 0 ;
+  width: 500px;
+  border: 1px solid #dedede;
+}
+.lista li {
+  list-style: none;
+  background-color : #f8f8f8;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #18aa18;
+}
+li a {
+  float: right;
+  text-decoration: none;
+  color: red;
+}
+
+footer{
+  color: #f8f8f8;
+  text-align: center;
+  padding-right: 100px ;
+}
+
